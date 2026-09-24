@@ -5,7 +5,7 @@
 <p align="center"><b>Saiba quanto está livre para gastar até o fim do mês.</b><br>
 Programa de Windows para organizar as suas contas. Local, sem conta, sem nuvem, sem anúncio.</p>
 
-<p align="center"><a href="https://github.com/giandomotion/g-finance/releases/latest"><b>Baixar a versão mais nova</b></a></p>
+<p align="center"><a href="https://github.com/giandomotion/g-finance/releases/latest/download/G-Finance-setup.exe"><b>Baixar o G Finance para Windows</b></a></p>
 
 ![Tela do mês](imagens/mes.png)
 
@@ -25,7 +25,7 @@ Programa de Windows para organizar as suas contas. Local, sem conta, sem nuvem, 
 
 ## Baixar e instalar
 
-1. Baixe o arquivo `G-Finance_..._x64-setup.exe` na [página de downloads](https://github.com/giandomotion/g-finance/releases/latest).
+1. [Baixe o instalador](https://github.com/giandomotion/g-finance/releases/latest/download/G-Finance-setup.exe) (sempre a versão mais nova). As versões anteriores ficam na [página de downloads](https://github.com/giandomotion/g-finance/releases).
 2. Abra o arquivo e siga o instalador. Não pede senha de administrador.
 3. Precisa de Windows 10 ou 11, 64 bits.
 
@@ -39,7 +39,7 @@ Esse aviso aparece com programas novos que ainda não são conhecidos pelo Windo
 Quer conferir se o arquivo é o original? Cada versão traz o `SHA256SUMS.txt`. No PowerShell, na pasta do download:
 
 ```powershell
-Get-FileHash .\G-Finance_1.0.0_x64-setup.exe -Algorithm SHA256
+Get-FileHash .\G-Finance-setup.exe -Algorithm SHA256
 ```
 
 O número tem que ser igual ao do `SHA256SUMS.txt` da mesma versão.
