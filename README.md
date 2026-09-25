@@ -15,13 +15,19 @@ Programa de Windows para organizar as suas contas. Local, sem conta, sem nuvem, 
 - **Contas do jeito que elas são:** fixa, parcelada (mostra quando acaba), variável e "às vezes" (como a gasolina que só entra em alguns meses).
 - **Simular um rolê:** monte o fim de semana e veja na hora se cabe no mês.
 - **Próximos meses:** quando cada parcela acaba e quanto o mês alivia.
-- **Mercado:** a lista do mês inteiro, feita para o tamanho da sua casa.
+- **Mercado:** a lista do mês inteiro, feita para o tamanho da sua casa, e a nota fiscal do cupom conferindo a compra.
+- **Cartão de crédito:** a fatura se monta sozinha e só sai do banco no dia em que você paga.
+- **Calculadora:** faça a conta e ela vira gasto num clique; divide a conta, compara parcelar com à vista.
+- **Contatos:** quem te deve, o que você deve e o que dá para negociar, com lembretes.
+- **Mapa mental:** planeje metas e projetos com valores que se somam.
 - **Trabalho e benefícios:** salário que cai sozinho e o saldo do vale no cartão.
 - **Importa a sua lista:** cole o bloco de notas onde você já anota as contas e ele monta o mês.
 
 | Rolê | Próximos meses |
 |---|---|
 | ![Simular um rolê](imagens/role.png) | ![Próximos meses](imagens/proximos.png) |
+| **Mercado** | **Contatos** |
+| ![Mercado](imagens/mercado.png) | ![Contatos](imagens/contatos.png) |
 
 ## Baixar e instalar
 
