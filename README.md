@@ -62,9 +62,11 @@ O número tem que ser igual ao do `SHA256SUMS.txt` da mesma versão.
 ## Privacidade
 
 - Seus dados ficam **só no seu computador**. Não existe conta, login nem nuvem.
-- **Nada sai sem você ligar.** Nenhum valor, conta ou gasto seu é enviado para lugar nenhum. Não há anúncio nem telemetria.
-- Por padrão, a única conexão do programa é para perguntar ao GitHub se existe versão nova. Dá para desligar em **Ajustes**.
-- **Conectar ao G Finance** (opcional, a partir da 1.7): liga o chat de suporte dentro do programa, os avisos e a verificação da licença pela internet. O programa pergunta uma vez; dá para mudar em **Ajustes > Privacidade**. Ligado, sai só o número da sua licença, o código do computador, a versão do programa e o que você escrever no chat. Nunca sai nenhum valor, conta, gasto ou nome de lançamento, e o servidor não guarda o seu IP. Desligado, o programa continua 100% offline.
+- **O app confirma a licença e a versão pela internet; seus valores, contas e gastos nunca saem do computador.** Não há anúncio nem telemetria.
+- **Licença ativada:** uma vez por mês o programa confirma pela internet que a licença é válida. Vai só o número da licença, a versão do programa e um número que identifica o computador. Sem internet, ele funciona normalmente por até 30 dias; depois disso fica só para leitura (backup e exportar continuam) até conectar uma vez.
+- **Teste grátis:** com internet, uma vez por dia o programa avisa que está em uso (a versão, os dias que faltam e um número que identifica o computador, sem nome nem dado pessoal). Sem internet, o teste funciona normalmente.
+- O programa também pergunta ao GitHub se existe versão nova. Dá para desligar em **Ajustes**.
+- **Suporte e avisos** (opcional): liga o chat de suporte dentro do programa e os avisos. O programa pergunta uma vez; dá para mudar em **Ajustes > Internet e privacidade**. Ligado, vai também o que você escrever no chat. O servidor não guarda o seu IP.
 
 ## Seus dados e backups
 
