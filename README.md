@@ -54,19 +54,22 @@ O número tem que ser igual ao do `SHA256SUMS.txt` da mesma versão.
 
 - **7 dias grátis**, com tudo liberado, a partir do primeiro uso.
 - Depois do teste, o programa fica **só para consulta** até ser ativado. **Seus dados nunca ficam presos:** backup e exportar continuam funcionando.
+- **Assinatura mensal ou anual.** É o único jeito de comprar: você escolhe o mensal ou o anual.
 - **Para ativar:** no programa, abra **Ativar**, copie o **código do computador** e me mande pelo WhatsApp junto com o seu nome. Eu te envio a chave; é só colar.
+- **Renovar é sem chave nova:** 7 dias antes de vencer, o programa avisa com a data e o WhatsApp. Pagou, eu renovo daqui e a mesma chave passa a valer até a nova data na próxima vez que o programa confirmar pela internet. Venceu? O programa fica só para consulta, com os dados salvos, até renovar.
 - A chave é pessoal e vale para um computador. Trocou de computador ou formatou? Me chama que eu mando uma chave nova.
 
 **WhatsApp: (21) 98150-5668**
 
 ## Privacidade
 
-- Seus dados ficam **só no seu computador**. Não existe conta, login nem nuvem.
-- **O app confirma a licença e a versão pela internet; seus valores, contas e gastos nunca saem do computador.** Não há anúncio nem telemetria.
-- **Licença ativada:** uma vez por mês o programa confirma pela internet que a licença é válida. Vai só o número da licença, a versão do programa e um número que identifica o computador. Sem internet, ele funciona normalmente por até 30 dias; depois disso fica só para leitura (backup e exportar continuam) até conectar uma vez.
-- **Teste grátis:** com internet, uma vez por dia o programa avisa que está em uso (a versão, os dias que faltam e um número que identifica o computador, sem nome nem dado pessoal). Sem internet, o teste funciona normalmente.
-- O programa também pergunta ao GitHub se existe versão nova. Dá para desligar em **Ajustes**.
-- **Suporte e avisos** (opcional): liga o chat de suporte dentro do programa e os avisos. O programa pergunta uma vez; dá para mudar em **Ajustes > Internet e privacidade**. Ligado, vai também o que você escrever no chat. O servidor não guarda o seu IP.
+- Seus gastos, contas, dívidas e valores ficam **no seu computador**. Eu não recebo esses dados. Os arquivos não são cifrados: o PIN protege o app, não o arquivo.
+- **Licença ativada:** uma vez por mês o programa confirma a licença pela internet. Vão a chave de licença (com o nome que está nela), um código que identifica o computador e a versão. Sem internet, funciona por até 30 dias; depois fica só para leitura (backup e exportar continuam) até conectar.
+- **Teste grátis:** com internet, uma vez por dia o programa avisa que está em uso, para evitar abuso do teste: vão um número aleatório da instalação, o código do computador, a versão, os dias que faltam e o código de quem indicou, se houver.
+- **Opcionais, desligados até você ligar:** Suporte e avisos (vai o que você escrever; fica 12 meses após a última mensagem), G Finance Sync (cifrado de ponta a ponta; o servidor não consegue ler), clima (localização aproximada para Open-Meteo e OpenStreetMap), preços do Atacadão, conta (e-mail sem verificação).
+- O programa pergunta ao GitHub se há versão nova. Dá para desligar em **Ajustes**.
+- O servidor fica na Cloudflare (EUA) e não grava o seu IP. Não há anúncios nem telemetria.
+- Para maiores de 18 anos. Política completa: dentro do programa, em **Ajustes > Internet e privacidade > Ler a política de privacidade**. Pedidos sobre seus dados: privacidade.gfinance@gmail.com, pelo chat de suporte do programa ou pelo WhatsApp (21) 98150-5668. Em **Ajustes > Internet e privacidade** também dá para baixar ou apagar o que o servidor guarda sobre você.
 
 ## Seus dados e backups
 
@@ -82,9 +85,9 @@ O número tem que ser igual ao do `SHA256SUMS.txt` da mesma versão.
 
 ## Perguntas frequentes
 
-**Tem versão para celular?** Ainda não. Por enquanto é só para Windows.
+**Tem versão para celular?** Está em construção. O programa do Windows já tem o **G Finance Sync** pronto para ela.
 
-**Sincroniza entre computadores?** Não. É de propósito: sem nuvem, os seus dados ficam só com você.
+**Sincroniza?** Com o celular, sim, pelo **G Finance Sync** (opcional): cifrado de ponta a ponta, sem conta e sem nuvem que leia os seus dados. Entre dois computadores, não: a licença vale para um computador.
 
 **E se eu formatar o computador?** Guarde um backup antes (Ajustes > Fazer backup agora). Depois de reinstalar, restaure o backup e me peça uma chave nova para o computador formatado.
 

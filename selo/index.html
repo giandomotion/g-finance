@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conferir selo de organizador · G Finance</title>
+<meta name="description" content="Confira se um Organizador(a) G Finance tem o selo em dia. A conferência é feita no seu navegador.">
+<style>
+:root{color-scheme:light dark;--fundo:#f2f3f5;--painel:#fff;--grupo:#f4f5f7;--sep:#e4e6ea;--texto:#0f1115;--texto-2:#454b55;--texto-3:#5e646e;--ctl:#787e88;--play:#1f5fe0;--play-hover:#1a54cb;--ok:#1a7f4b;--atencao:#935600;--critico:#c8322b}
+@media (prefers-color-scheme:dark){:root{--fundo:#0b0c0e;--painel:#131417;--grupo:#17191d;--sep:#24272d;--texto:#f1f2f4;--texto-2:#b1b6bf;--texto-3:#8c919b;--ctl:#737884;--play:#3d7bff;--play-hover:#5a8fff;--ok:#3ec27a;--atencao:#f0b43c;--critico:#ff6b61}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fundo);color:var(--texto);font:15px/1.55 'Geist Variable','Segoe UI Variable Text','Segoe UI',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:760px;margin:0 auto;padding:40px 16px 56px}
+.marca{margin:0;color:var(--texto-3);font-size:13px;font-weight:600;letter-spacing:.02em}
+h1{margin:6px 0 8px;font-size:30px;line-height:36px;letter-spacing:-.025em}
+.lead{margin:0 0 24px;color:var(--texto-2)}
+.caixa{padding:20px;border-radius:14px;background:var(--painel);border:1px solid var(--sep)}
+label{display:block;margin-bottom:8px;font-weight:600}
+textarea{display:block;width:100%;min-height:92px;padding:10px 12px;border:1px solid var(--ctl);border-radius:8px;background:transparent;color:inherit;font:14px/1.45 ui-monospace,'Cascadia Mono',Consolas,monospace;resize:vertical}
+textarea:focus{outline:2px solid var(--play);outline-offset:1px}
+.acoes{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:12px}
+button{height:40px;padding:0 18px;border:0;border-radius:8px;background:var(--play);color:#fff;font:inherit;font-weight:600;cursor:pointer}
+button:hover{background:var(--play-hover)}
+.dica{color:var(--texto-3);font-size:13px}
+.resultado{margin-top:16px}
+.cartao{padding:16px;border-radius:12px;background:var(--grupo)}
+.cartao h2{display:flex;align-items:center;gap:8px;margin:0 0 6px;font-size:18px}
+.ok{color:var(--ok)}.atencao{color:var(--atencao)}.critico{color:var(--critico)}
+dl{display:grid;grid-template-columns:auto 1fr;gap:4px 16px;margin:10px 0 0}
+dt{color:var(--texto-3)}dd{margin:0}
+.nota{margin-top:10px;color:var(--texto-2)}
+.comentarios{margin:8px 0 0;padding:0;list-style:none}
+.comentarios li{padding:8px 0;border-top:1px solid var(--sep);color:var(--texto-2)}
+h2.secao{margin:36px 0 10px;font-size:13px;color:var(--texto-3);letter-spacing:.08em;text-transform:uppercase}
+.lista{margin:0;padding:0;list-style:none}
+.lista li{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;padding:12px 0;border-top:1px solid var(--sep)}
+.lista b{font-weight:600}
+.fraco{color:var(--texto-3)}
+.regras{margin:0;padding-left:20px;color:var(--texto-2)}
+.regras li{margin:4px 0}
+footer{margin-top:40px;color:var(--texto-3);font-size:13px}
+</style>
+</head>
+<body>
+<main>
+<p class="marca">G Finance</p>
+<h1>Conferir selo de Organizador(a)</h1>
+<p class="lead">O selo é um texto assinado pelo G Finance. Esta página confere a assinatura aqui mesmo, no seu navegador: nada do que você cola sai daqui.</p>
+<section class="caixa" aria-labelledby="rotulo-selo">
+  <label id="rotulo-selo" for="selo">Cole o selo (começa com GFO) ou digite o número</label>
+  <textarea id="selo" spellcheck="false" autocomplete="off" placeholder="GFO-04000-00700-..."></textarea>
+  <div class="acoes"><button type="button" id="conferir">Conferir</button><span class="dica">Quem tem o selo te manda o texto dele, ou mostra no relatório.</span></div>
+  <div class="resultado" id="resultado" aria-live="polite"></div>
+</section>
+<h2 class="secao">Organizadores com selo</h2>
+<ul class="lista" id="lista"><li class="fraco">Conferindo os selos...</li></ul>
+<h2 class="secao">O que o organizador pode e não pode</h2>
+<p class="fraco">Organizar o orçamento da família e ajudar a sair das dívidas, sem falar de investimento. O código de conduta que todo organizador aceita (as marcadas com G tiram o selo na hora):</p>
+<ol class="regras">
+<li>Não recomendo investimento, fundo, ação, corretora, banco, cartão ou empréstimo específico. <b>(G)</b></li>
+<li>Não recebo comissão de banco, financeira, loja ou credor. <b>(G)</b></li>
+<li>Nunca peço senha de banco, código de SMS ou acesso ao app do banco. Na chamada de tela, o cliente fecha o banco antes. <b>(G)</b></li>
+<li>Combino o preço por escrito antes de começar; nunca cobro percentual de desconto de dívida.</li>
+<li>Nunca cobro para &quot;limpar nome&quot;, &quot;subir score&quot; ou &quot;liberar desconto&quot;. <b>(G)</b></li>
+<li>Nunca recebo dinheiro do cliente para repassar a credor; o pagamento sai sempre em nome do credor. <b>(G)</b></li>
+<li>Não negocio em nome do cliente; preparo a proposta e ele negocia.</li>
+<li>Superendividado vai para a Defensoria, o Procon ou o núcleo de superendividamento; eu digo isso por escrito.</li>
+<li>Não uso os títulos consultor de investimentos, planejador CFP, assessor de investimentos, nem digo que sou funcionário do G Finance. Uso o aviso de independência.</li>
+<li>Sigilo: não conto nada do cliente a ninguém, nem como exemplo em rede social sem autorização escrita.</li>
+<li>Apago fotos, arquivos e a carteira do cliente no fim do atendimento e entrego o comprovante.</li>
+<li>Não prometo resultado (&quot;você vai sair das dívidas em 3 meses&quot;).</li>
+</ol>
+<footer>
+  <p>Sou organizador(a) independente, não sou funcionário(a) do G Finance, e isto não é consultoria de investimentos. Os organizadores são independentes: o G Finance não intermedia pagamento nem responde pelo serviço deles, mas suspende o selo de quem descumprir o código de conduta.</p>
+  <p>Página gerada em 27/09/2026. O G Finance não recebe nada de banco, financeira ou loja.</p>
+</footer>
+</main>
+<script>
+var DADOS = {"publica":"mknNVaT+BKyY221HZ7UHBlSXaYSdyAXBkhyxHUQ1Z3k=","geradaEm":"2026-09-27","organizadores":[]};
+
+var conferidorDoSelo = (function () {
+  'use strict';
+  var P = (1n << 255n) - 19n;
+  var L = (1n << 252n) + 27742317777372353535851937790883648493n;
+  var D = 37095705934669439343138083508754565189542113879843219016388785533085940283555n;
+  var RAIZ = 19681161376707505956807079304988542015446066515923890162744021073123829784752n;
+  var GX = 15112221349535400772501151409588531511454012693041857206046113283949847762202n;
+  var GY = 46316835694926478169428394003475163141307993866256225615783033603165251855960n;
+  var ALFABETO = '0123456789ABCDEFGHJKMNPQRSTVWXYZ';
+  var EPOCA = Date.UTC(2026, 0, 1);
+
+  function mod(a) { var r = a % P; return r >= 0n ? r : r + P; }
+  function pot(b, e) { var r = 1n; b = mod(b); while (e > 0n) { if (e & 1n) r = (r * b) % P; b = (b * b) % P; e >>= 1n; } return r; }
+  function inv(x) { return pot(x, P - 2n); }
+  var BASE = [GX, GY, 1n, mod(GX * GY)];
+
+  function somar(p, q) {
+    var a = mod((p[1] - p[0]) * (q[1] - q[0]));
+    var b = mod((p[1] + p[0]) * (q[1] + q[0]));
+    var c = mod(p[3] * 2n * D * q[3]);
+    var d = mod(p[2] * 2n * q[2]);
+    var e = b - a, f = d - c, g = d + c, h = b + a;
+    return [mod(e * f), mod(g * h), mod(f * g), mod(e * h)];
+  }
+  function vezes(p, n) {
+    var r = [0n, 1n, 1n, 0n], q = p;
+    while (n > 0n) { if (n & 1n) r = somar(r, q); q = somar(q, q); n >>= 1n; }
+    return r;
+  }
+  function numeroLE(bytes) { var n = 0n; for (var i = bytes.length - 1; i >= 0; i--) n = (n << 8n) | BigInt(bytes[i]); return n; }
+  function bytesLE(n) { var b = new Uint8Array(32); for (var i = 0; i < 32; i++) { b[i] = Number(n & 255n); n >>= 8n; } return b; }
+  function codificar(p) {
+    var zi = inv(p[2]);
+    var x = mod(p[0] * zi), y = mod(p[1] * zi);
+    return bytesLE(y | ((x & 1n) << 255n));
+  }
+  function decodificar(bytes) {
+    var y = numeroLE(bytes);
+    var sinal = y >> 255n;
+    y &= (1n << 255n) - 1n;
+    if (y >= P) return null;
+    var y2 = mod(y * y), u = mod(y2 - 1n), v = mod(D * y2 + 1n);
+    var x = pot(mod(u * inv(v)), (P + 3n) / 8n);
+    if (mod(v * x * x) !== u) x = mod(x * RAIZ);
+    if (mod(v * x * x) !== u) return null;
+    if (x === 0n && sinal === 1n) return null;
+    if ((x & 1n) !== sinal) x = mod(-x);
+    return [x, y, 1n, mod(x * y)];
+  }
+  function iguais(a, b) { if (a.length !== b.length) return false; var d = 0; for (var i = 0; i < a.length; i++) d |= a[i] ^ b[i]; return d === 0; }
+
+  /** Ed25519: a assinatura de 64 bytes de msg pela publica de 32 bytes. */
+  async function verificar(publica, msg, assinatura) {
+    if (publica.length !== 32 || assinatura.length !== 64) return false;
+    var s = numeroLE(assinatura.slice(32));
+    if (s >= L) return false;
+    var a = decodificar(publica), r = decodificar(assinatura.slice(0, 32));
+    if (!a || !r) return false;
+    var tudo = new Uint8Array(64 + msg.length);
+    tudo.set(assinatura.slice(0, 32)); tudo.set(publica, 32); tudo.set(msg, 64);
+    var h = new Uint8Array(await crypto.subtle.digest('SHA-512', tudo));
+    var k = numeroLE(h) % L;
+    return iguais(codificar(vezes(BASE, s)), codificar(somar(r, vezes(a, k))));
+  }
+
+  function normalizar(texto) {
+    var s = '';
+    for (var i = 0; i < texto.length; i++) {
+      var c = texto[i];
+      var cod = c.charCodeAt(0);
+      var alnum = (cod >= 48 && cod <= 57) || (cod >= 65 && cod <= 90) || (cod >= 97 && cod <= 122);
+      if (!alnum) continue;
+      var u = c.toUpperCase();
+      s += u === 'O' ? '0' : (u === 'I' || u === 'L') ? '1' : u;
+    }
+    return s;
+  }
+  function deBase32(t) {
+    var saida = [], buffer = 0, bits = 0;
+    for (var i = 0; i < t.length; i++) {
+      var v = ALFABETO.indexOf(t[i]);
+      if (v < 0) return null;
+      buffer = (buffer << 5) | v; bits += 5;
+      if (bits >= 8) { bits -= 8; saida.push((buffer >> bits) & 255); }
+      buffer &= (1 << bits) - 1;
+    }
+    return Uint8Array.from(saida);
+  }
+  function base32(bytes) {
+    var s = '', buffer = 0, bits = 0;
+    for (var i = 0; i < bytes.length; i++) {
+      buffer = (buffer << 8) | bytes[i]; bits += 8;
+      while (bits >= 5) { bits -= 5; s += ALFABETO[(buffer >> bits) & 31]; }
+      buffer &= (1 << bits) - 1;
+    }
+    if (bits > 0) s += ALFABETO[(buffer << (5 - bits)) & 31];
+    return s;
+  }
+  function deB64(t) { var s = atob(t.trim()); var b = new Uint8Array(s.length); for (var i = 0; i < s.length; i++) b[i] = s.charCodeAt(i); return b; }
+  function iso(n) {
+    var d = new Date(EPOCA + n * 86400000);
+    return d.getUTCFullYear() + '-' + String(d.getUTCMonth() + 1).padStart(2, '0') + '-' + String(d.getUTCDate()).padStart(2, '0');
+  }
+
+  /** O corpo do selo dentro do texto colado: do GFO em diante, so letras, numeros, espacos e hifens. */
+  function corpo(texto) {
+    var m = texto.toUpperCase();
+    var i = m.indexOf('GFO-');
+    if (i < 0) i = m.indexOf('GFO');
+    var resto = i < 0 ? texto : texto.slice(i + 3);
+    var trecho = '';
+    for (var j = 0; j < resto.length; j++) {
+      var c = resto[j], cod = c.charCodeAt(0);
+      var ok = (cod >= 48 && cod <= 57) || (cod >= 65 && cod <= 90) || (cod >= 97 && cod <= 122) || c === '-' || c === ' ' || c === '\n' || c === '\r' || c === '\t';
+      if (!ok) break;
+      trecho += c;
+    }
+    var n = normalizar(trecho);
+    return n.indexOf('GF0') === 0 ? n.slice(3) : n;
+  }
+
+  /** So o numero ("7", "0007", "nº 7", "GFO-0007"); nulo para o resto. */
+  function lerNumero(texto) {
+    var t = normalizar(texto);
+    if (t.indexOf('GF0') === 0) t = t.slice(3);
+    if (t[0] === 'N') t = t.slice(1);
+    if (!t || t.length > 9 || !/^[0-9]+$/.test(t)) return null;
+    var n = Number(t);
+    return n > 0 ? n : null;
+  }
+
+  /**
+   * O selo conferido, ou { erro }. Nao olha a validade: quem chama compara com hoje.
+   * { numero, licenca, emitido, validade, nome, cidade, texto }
+   */
+  async function lerSelo(texto, publicaB64) {
+    var c = corpo(texto);
+    var fim = 0;
+    while (fim < c.length && ALFABETO.indexOf(c[fim]) >= 0) fim++;
+    var t = c.slice(0, fim);
+    var bytes = deBase32(t);
+    if (!bytes || bytes.length === 0) return { erro: 'incompleto' };
+    if (bytes[0] > 1 && bytes[0] < 8) return { erro: 'versao' };
+    if (bytes[0] !== 1) return { erro: 'invalido' };
+    if (bytes.length < 14) return { erro: 'incompleto' };
+    var n = bytes[13];
+    if (n === 0 || n > 40) return { erro: 'invalido' };
+    var posCidade = 14 + n;
+    if (bytes.length <= posCidade) return { erro: 'incompleto' };
+    var cc = bytes[posCidade];
+    if (cc === 0 || cc > 40) return { erro: 'invalido' };
+    var total = posCidade + 1 + cc + 64;
+    var letras = Math.ceil((total * 8) / 5);
+    if (t.length > letras) bytes = deBase32(t.slice(0, letras)).slice(0, total);
+    if (bytes.length < total) return { erro: 'incompleto' };
+    if (bytes.length > total) return { erro: 'invalido' };
+    var dados = bytes.slice(0, total - 64);
+    var assinado = new Uint8Array(4 + dados.length);
+    assinado.set([71, 70, 79, 49]); assinado.set(dados, 4);
+    var publica;
+    try { publica = deB64(publicaB64); } catch (e) { return { erro: 'invalido' }; }
+    if (!(await verificar(publica, assinado, bytes.slice(total - 64)))) return { erro: 'invalido' };
+    var u32 = function (i) { return dados[i] * 16777216 + (dados[i + 1] << 16) + (dados[i + 2] << 8) + dados[i + 3]; };
+    var u16 = function (i) { return (dados[i] << 8) | dados[i + 1]; };
+    var dec = new TextDecoder('utf-8', { fatal: true });
+    var nome, cidade;
+    try { nome = dec.decode(dados.slice(14, posCidade)); cidade = dec.decode(dados.slice(posCidade + 1)); } catch (e) { return { erro: 'invalido' }; }
+    if (u16(11) < u16(9)) return { erro: 'invalido' };
+    var grupos = base32(bytes).match(/.{1,5}/g) || [];
+    return { numero: u32(1), licenca: u32(5), emitido: iso(u16(9)), validade: iso(u16(11)), nome: nome, cidade: cidade, texto: 'GFO-' + grupos.join('-') };
+  }
+
+  return { lerSelo: lerSelo, lerNumero: lerNumero, verificar: verificar };
+})();
+
+(function () {
+  var HOJE = new Date(); var hoje = HOJE.getFullYear() + '-' + String(HOJE.getMonth() + 1).padStart(2, '0') + '-' + String(HOJE.getDate()).padStart(2, '0');
+  function br(d) { return d.slice(8, 10) + '/' + d.slice(5, 7) + '/' + d.slice(0, 4); }
+  function num(n) { return String(n).padStart(4, '0'); }
+  function el(tag, cls, texto) { var e = document.createElement(tag); if (cls) e.className = cls; if (texto !== undefined) e.textContent = texto; return e; }
+  var conferidos = [];
+  function situacao(s, suspenso) {
+    if (suspenso) return { cls: 'critico', texto: 'Selo suspenso' };
+    if (s.validade < hoje) return { cls: 'atencao', texto: 'Selo vencido em ' + br(s.validade) };
+    return { cls: 'ok', texto: 'Selo válido até ' + br(s.validade) };
+  }
+  function textoDaNota(n) {
+    var media = n.media.toLocaleString('pt-BR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    var ultima = n.ultima ? ', a última em ' + new Date(n.ultima).toLocaleDateString('pt-BR') : '';
+    return 'Nota ' + media + ' de 5 (' + n.avaliacoes + (n.avaliacoes === 1 ? ' avaliação' : ' avaliações') + ultima + '). Só clientes com licença avaliam, uma vez cada.';
+  }
+  function cartao(s, extra) {
+    var c = el('div', 'cartao');
+    var sit = situacao(s, extra ? extra.suspenso : false);
+    var h = el('h2', sit.cls, sit.texto); c.appendChild(h);
+    var dl = el('dl');
+    [['Nome', s.nome], ['Cidade', s.cidade], ['Selo nº', num(s.numero)], ['Emitido em', br(s.emitido)], ['Vale até', br(s.validade)]].forEach(function (p) { dl.appendChild(el('dt', '', p[0])); dl.appendChild(el('dd', '', p[1])); });
+    c.appendChild(dl);
+    if (extra && extra.nota && extra.nota.avaliacoes > 0) {
+      c.appendChild(el('p', 'nota', textoDaNota(extra.nota)));
+      if (extra.nota.comentarios.length) {
+        var ul = el('ul', 'comentarios');
+        extra.nota.comentarios.forEach(function (k) { ul.appendChild(el('li', '', k.nota + ' de 5 · ' + k.texto)); });
+        c.appendChild(ul);
+      }
+    }
+    return c;
+  }
+  var resultado = document.getElementById('resultado');
+  function mostrar(no) { resultado.textContent = ''; resultado.appendChild(no); }
+  var FRASES = { incompleto: 'Selo incompleto: confira se copiou tudo, do GFO até o fim.', invalido: 'Esse selo não confere: ele não foi emitido pelo G Finance ou foi alterado.', versao: 'Esse selo é de uma versão mais nova: atualize esta página.' };
+  async function conferir() {
+    var t = document.getElementById('selo').value;
+    if (!t.trim()) return;
+    var n = conferidorDoSelo.lerNumero(t);
+    if (n !== null) {
+      var achado = conferidos.find(function (x) { return x.selo.numero === n; });
+      mostrar(achado ? cartao(achado.selo, achado) : el('p', 'critico', 'Não achei o selo nº ' + num(n) + ' na lista desta página.'));
+      return;
+    }
+    var s = await conferidorDoSelo.lerSelo(t, DADOS.publica);
+    if (s.erro) { mostrar(el('p', 'critico', FRASES[s.erro])); return; }
+    var daLista = conferidos.find(function (x) { return x.selo.numero === s.numero && x.selo.texto === s.texto; });
+    mostrar(cartao(s, daLista || null));
+  }
+  document.getElementById('conferir').addEventListener('click', conferir);
+  document.getElementById('selo').addEventListener('keydown', function (e) { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); conferir(); } });
+  (async function () {
+    for (var i = 0; i < DADOS.organizadores.length; i++) {
+      var o = DADOS.organizadores[i];
+      var s = await conferidorDoSelo.lerSelo(o.selo, DADOS.publica);
+      if (!s.erro) conferidos.push({ selo: s, suspenso: o.suspenso, nota: o.nota });
+    }
+    conferidos.sort(function (a, b) { return a.selo.cidade.localeCompare(b.selo.cidade, 'pt-BR') || a.selo.nome.localeCompare(b.selo.nome, 'pt-BR'); });
+    var lista = document.getElementById('lista');
+    lista.textContent = '';
+    if (!conferidos.length) { lista.appendChild(el('li', 'fraco', 'A lista de organizadores ainda está vazia.')); return; }
+    conferidos.forEach(function (x) {
+      var li = el('li');
+      var esq = el('span'); esq.appendChild(el('b', '', x.selo.nome)); esq.appendChild(document.createTextNode(' · ' + x.selo.cidade));
+      var sit = situacao(x.selo, x.suspenso);
+      var dir = el('span', sit.cls, 'nº ' + num(x.selo.numero) + ' · ' + sit.texto + (x.nota && x.nota.avaliacoes > 0 ? ' · nota ' + x.nota.media.toLocaleString('pt-BR', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) : ''));
+      li.appendChild(esq); li.appendChild(dir);
+      li.addEventListener('click', function () { mostrar(cartao(x.selo, x)); document.getElementById('selo').value = x.selo.texto; });
+      li.style.cursor = 'pointer';
+      lista.appendChild(li);
+    });
+  })();
+})();
+</script>
+</body>
+</html>
